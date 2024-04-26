@@ -2,7 +2,7 @@
 #include "common.hpp"
 #include "file_manager.hpp"
 
-#pragma warning(disable : 2857)
+//#pragma warning(disable : 2857)
 
 namespace big
 {
