@@ -1,0 +1,2627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\backend\backend.cpp">
+      <Filter>src\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\bool_command.cpp">
+      <Filter>src\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\command.cpp">
+      <Filter>src\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\misc\recovery.cpp">
+      <Filter>src\backend\commands\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\kick\bail_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\kick\breakup_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\kick\complaint_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\kick\end_session_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\kick\host_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\kick\multi_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\kick\null_function_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\kick\oom_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\kick\script_host_kick.cpp">
+      <Filter>src\backend\commands\player\kick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\misc\clear_wanted_level.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\misc\enter_interior.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\misc\give_ammo.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\misc\give_armor.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\misc\give_health.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\misc\join_ceo.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\misc\steal_identity.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\misc\steal_outfit.cpp">
+      <Filter>src\backend\commands\player\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\ceo_kick.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\explode_player.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\force_into_mission.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\give_all_weapons.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\kick_from_interior.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\kick_from_vehicle.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\kill_player.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\ragdoll_player.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\remove_all_weapons.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\send_fake_ban_message.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\send_sext.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\send_to_apartment.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\send_to_interior.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\send_to_warehouse.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\set_wanted_level.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\show_transaction_error.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\start_script.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\trigger_ceo_raid.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\toxic\turn_into_beast.cpp">
+      <Filter>src\backend\commands\player\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\troll\bring.cpp">
+      <Filter>src\backend\commands\player\troll</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\troll\set_bounty.cpp">
+      <Filter>src\backend\commands\player\troll</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\troll\teleport.cpp">
+      <Filter>src\backend\commands\player\troll</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\troll\teleport_into_vehicle.cpp">
+      <Filter>src\backend\commands\player\troll</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\boost_vehicle.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\break_doors.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\burst_tyres.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\close_doors.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\downgrade_vehicle.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\flip_180.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\flying_vehicle.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\kill_engine.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\lock_doors.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\open_doors.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\remote_control_vehicle.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\smash_windows.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\special_ability.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\stop_vehicle.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\unlock_doors.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\upgrade_vehicle.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\player\vehicle\window_tint.cpp">
+      <Filter>src\backend\commands\player\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\self\ammo.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\self\beast_jump.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\self\clean_player.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\self\clearwanted.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\self\fill_inventory.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\self\graceful_landing.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\self\heal.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\self\repair_vehicle.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\self\request_services.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\self\skip_cutscene.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\self\suicide.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\self\super_jump.cpp">
+      <Filter>src\backend\commands\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\session\join_session.cpp">
+      <Filter>src\backend\commands\session</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\session\wipe_session.cpp">
+      <Filter>src\backend\commands\session</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\spawn\spawn_vehicle.cpp">
+      <Filter>src\backend\commands\spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\system\external_console.cpp">
+      <Filter>src\backend\commands\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\system\fast_quit.cpp">
+      <Filter>src\backend\commands\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\system\window_hook.cpp">
+      <Filter>src\backend\commands\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\teleport\bring_personal_vehicle.cpp">
+      <Filter>src\backend\commands\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\teleport\teleport_to_highlighted_blip.cpp">
+      <Filter>src\backend\commands\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\teleport\teleport_to_last_vehicle.cpp">
+      <Filter>src\backend\commands\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\teleport\teleport_to_objective.cpp">
+      <Filter>src\backend\commands\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\teleport\teleport_to_personal_vehicle.cpp">
+      <Filter>src\backend\commands\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\commands\teleport\teleport_to_waypoint.cpp">
+      <Filter>src\backend\commands\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\context\chat_command_context.cpp">
+      <Filter>src\backend\context</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\context\default_command_context.cpp">
+      <Filter>src\backend\context</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\float_command.cpp">
+      <Filter>src\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\int_command.cpp">
+      <Filter>src\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\hud\hud_color_override.cpp">
+      <Filter>src\backend\looped\hud</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\hud\hud_disable_input.cpp">
+      <Filter>src\backend\looped\hud</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\hud\hud_transition_state.cpp">
+      <Filter>src\backend\looped\hud</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\player\good_options.cpp">
+      <Filter>src\backend\looped\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\player\remote_control_vehicle.cpp">
+      <Filter>src\backend\looped\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\player\spectate.cpp">
+      <Filter>src\backend\looped\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\player\toxic_options.cpp">
+      <Filter>src\backend\looped\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\clean_player.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\dance_mode.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\fast_respawn.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\free_cam.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\godmode.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\health.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\hud.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\interaction_menu_freedom.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\invisibility.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\mobile_radio.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\no_collision.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\no_ragdoll.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\no_water_collision.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\noclip.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\off_radar.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\persist_outfit.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\police.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\ptfx.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\super_hero_fly.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\super_run.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\toggle_passive.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\self\unlimited_oxygen.cpp">
+      <Filter>src\backend\looped\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\session\auto_kick_host.cpp">
+      <Filter>src\backend\looped\session</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\session\block_jobs.cpp">
+      <Filter>src\backend\looped\session</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\session\force_thunder.cpp">
+      <Filter>src\backend\looped\session</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\session\pop_multiplier_areas.cpp">
+      <Filter>src\backend\looped\session</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\session\randomize_ceo_colors.cpp">
+      <Filter>src\backend\looped\session</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\system\auto_tp_to_waypoint.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\system\desync_kick_protection.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\system\force_relay_connections.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\system\mission_creator.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\system\self_globals.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\system\spoofing.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\system\update_pointers.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\system\voice_chat_audio.cpp">
+      <Filter>src\backend\looped\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\tunables\allow_weapons_in_interiors.cpp">
+      <Filter>src\backend\looped\tunables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\tunables\disable_phone.cpp">
+      <Filter>src\backend\looped\tunables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\tunables\no_idle_kick.cpp">
+      <Filter>src\backend\looped\tunables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\allow_all_vehicles_in_heists.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\allow_all_weapons.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\auto_drive.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\block_homing.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\boost_behavior.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\disable_siren.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\drive_on_water.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\fly.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\horn_boost.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\instant_brake.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\invisibility.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\keep_engine_running.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\keep_on_ground.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\keep_vehicle_clean.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\keep_vehicle_repaired.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\ls_customs.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\no_collision.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\no_water_collision.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\rgb_paint.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\seatbelt.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\speedo_meter.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\turn_signals.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\unlimited_weapons.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\vehicle_abilities.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\vehicle_ammo_special_type.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\vehicle_god.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\vehicle\vehicle_jump.cpp">
+      <Filter>src\backend\looped\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\aimbot.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\always_full_ammo.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\ammo_special_type.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\c4_limit.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\cage_gun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\custom_gun_disable_control_action.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\delete_gun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\do_persist_weapons.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\flying_axe.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\gravity_gun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\increase_damage.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\infinite_ammo.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\infinite_mag.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\infinite_range.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\modify_explosion_radius.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\no_recoil.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\no_spread.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\paintgun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\rapid_fire.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\repair_gun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\steal_vehicle_gun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\tpgun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\triggerbot.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\vehicle_gun.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\weapons\weapon_hotkeys.cpp">
+      <Filter>src\backend\looped\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\beacon.cpp">
+      <Filter>src\backend\looped\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\blackhole.cpp">
+      <Filter>src\backend\looped\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\blackout.cpp">
+      <Filter>src\backend\looped\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\gravity.cpp">
+      <Filter>src\backend\looped\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\nearby\auto_disarm.cpp">
+      <Filter>src\backend\looped\world\nearby</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\nearby\combative.cpp">
+      <Filter>src\backend\looped\world\nearby</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\nearby\high_alert.cpp">
+      <Filter>src\backend\looped\world\nearby</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\nearby\ignore.cpp">
+      <Filter>src\backend\looped\world\nearby</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\nearby\ped_rush.cpp">
+      <Filter>src\backend\looped\world\nearby</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\nearby\peds_rain.cpp">
+      <Filter>src\backend\looped\world\nearby</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\nearby\vehicles_rain.cpp">
+      <Filter>src\backend\looped\world\nearby</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\ocean.cpp">
+      <Filter>src\backend\looped\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\spawn_ped.cpp">
+      <Filter>src\backend\looped\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\time_override.cpp">
+      <Filter>src\backend\looped\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\train.cpp">
+      <Filter>src\backend\looped\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped\world\weather_override.cpp">
+      <Filter>src\backend\looped\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\looped_command.cpp">
+      <Filter>src\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\player_command.cpp">
+      <Filter>src\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\reactions\interloper_reaction.cpp">
+      <Filter>src\backend\reactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\reactions\reaction.cpp">
+      <Filter>src\backend\reactions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\byte_patch_manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\settings.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fiber_pool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file_manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file_manager\file.cpp">
+      <Filter>src\file_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file_manager\folder.cpp">
+      <Filter>src\file_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fonts\icons.cpp">
+      <Filter>src\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fonts\storopia.cpp">
+      <Filter>src\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gta\fidevice.cpp">
+      <Filter>src\gta</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gta\script_handler.cpp">
+      <Filter>src\gta</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\components\custom_text.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\components\icon.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\components\input_text.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\components\input_text_with_hint.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\components\nav_button.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\components\nav_item.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\components\options_modal.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\components\script_patch_checkbox.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\components\selectable.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\components\small.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\components\sub_title.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\components\title.cpp">
+      <Filter>src\gui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\handling\current_profile\current_profile_brakes.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\handling\current_profile\current_profile_gearing.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\handling\current_profile\current_profile_general.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\handling\current_profile\current_profile_other.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\handling\current_profile\current_profile_roll_centre_height.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\handling\current_profile\current_profile_rollbars.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\handling\current_profile\current_profile_steering.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\handling\current_profile\current_profile_suspension.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\handling\current_profile\current_profile_traction.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\handling\current_profile\current_profile_transmission.cpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\handling\handling_current_profile.cpp">
+      <Filter>src\gui\handling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\handling\handling_saved_profiles.cpp">
+      <Filter>src\gui\handling</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\handling\modals\save_handling.cpp">
+      <Filter>src\gui\handling\modals</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooking\call_hook.cpp">
+      <Filter>src\hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooking\detour_hook.cpp">
+      <Filter>src\hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooking\hooking.cpp">
+      <Filter>src\hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooking\vmt_hook.cpp">
+      <Filter>src\hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooking\vtable_hook.cpp">
+      <Filter>src\hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\fuzzer\read_bits_single.cpp">
+      <Filter>src\hooks\fuzzer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\fuzzer\sync_data_reader.cpp">
+      <Filter>src\hooks\fuzzer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\gui\swap_chain_present.cpp">
+      <Filter>src\hooks\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\gui\swap_chain_resizebuffers.cpp">
+      <Filter>src\hooks\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\gui\wndproc.cpp">
+      <Filter>src\hooks\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\info\get_network_event_data.cpp">
+      <Filter>src\hooks\info</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\info\prepare_metric_for_sending.cpp">
+      <Filter>src\hooks\info</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\format_int.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\get_label_text.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\get_model_info.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\http_start_request.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\log_message_error_box.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\netfilter_handle_message.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\nt_query_virtual_memory.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\process_matchmaking_find_response.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\queue_dependency.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\send_chat_message.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\serialize_join_request_message.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\serialize_player_data_msg.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\sort_session_details.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\start_matchmaking_find_sessions.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\task_fall_constructor.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\task_jump_constructor.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\misc\update_timecycle_keyframe_data.cpp">
+      <Filter>src\hooks\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\player_management\assign_physical_index.cpp">
+      <Filter>src\hooks\player_management</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\player_management\network_player_mgr.cpp">
+      <Filter>src\hooks\player_management</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\allocate_memory_reliable.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\can_apply_data.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\fragment_physics_crash.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\handle_join_request.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\increment_stat_event.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\invalid_decal.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\invalid_mods_crash_detour.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\receive_net_message.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\receive_pickup.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\received_array_update.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\received_clone_create.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\received_clone_remove.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\received_clone_sync.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\received_event.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\render_big_ped.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\render_entity.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\render_ped.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\script_event_handler.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\send_non_physical_player_data.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\serialize_parachute_task.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\serialize_take_off_ped_variation_task.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\task_ambient_clips.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\task_parachute_object.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\protections\update_presence_attribute.cpp">
+      <Filter>src\hooks\protections</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\script\can_create_vehicle.cpp">
+      <Filter>src\hooks\script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\script\gta_thread_kill.cpp">
+      <Filter>src\hooks\script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\script\gta_thread_start.cpp">
+      <Filter>src\hooks\script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\script\init_native_tables.cpp">
+      <Filter>src\hooks\script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\script\run_script_threads.cpp">
+      <Filter>src\hooks\script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\script\script_vm.cpp">
+      <Filter>src\hooks\script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\spoofing\send_player_card_stats.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\spoofing\send_session_matchmaking_attributes.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\spoofing\serialize_stats.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\spoofing\write_player_appearance_data_node.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\spoofing\write_player_camera_data_node.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\spoofing\write_player_creation_data_node.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\spoofing\write_player_game_state_data_node.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\spoofing\write_player_gamer_data_node.cpp">
+      <Filter>src\hooks\spoofing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\toxic\broadcast_net_array.cpp">
+      <Filter>src\hooks\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\toxic\write_vehicle_proximity_migration_data_node.cpp">
+      <Filter>src\hooks\toxic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\voice\direct_sound_capture_create.cpp">
+      <Filter>src\hooks\voice</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\voice\enumerate_audio_devices.cpp">
+      <Filter>src\hooks\voice</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http_client\http_client.cpp">
+      <Filter>src\http_client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http_client\proxy_mgr.cpp">
+      <Filter>src\http_client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\invoker\invoker.cpp">
+      <Filter>src\invoker</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logger\exception_handler.cpp">
+      <Filter>src\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logger\logger.cpp">
+      <Filter>src\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logger\stack_trace.cpp">
+      <Filter>src\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\command.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\entities.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\event.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\global_table.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\globals.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\gui.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\gui\base_text_element.cpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\gui\button.cpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\gui\checkbox.cpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\gui\input_float.cpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\gui\input_int.cpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\gui\input_string.cpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\gui\raw_imgui_callback.cpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\gui\sameline.cpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\gui\separator.cpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\gui\text.cpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\locals.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\log.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\memory.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\network.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\script.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\self.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\stats.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\tunables.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\vector.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\vehicles.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\bindings\weapons.cpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lua_manager.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lua_module.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\lua_patch.cpp">
+      <Filter>src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua\natives\lua_native_binding.cpp">
+      <Filter>src\lua\natives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\byte_patch.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\module.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\pattern.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\range.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\native_hooks\native_hooks.cpp">
+      <Filter>src\native_hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\packet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pointers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\font_mgr.cpp">
+      <Filter>src\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\renderer.cpp">
+      <Filter>src\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_function.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_global.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_local.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_mgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\api\api_service.cpp">
+      <Filter>src\services\api</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\context_menu\context_menu_service.cpp">
+      <Filter>src\services\context_menu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\creator_storage\creator_storage_service.cpp">
+      <Filter>src\services\creator_storage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\custom_teleport\custom_teleport_service.cpp">
+      <Filter>src\services\custom_teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\custom_text\custom_text_callbacks.cpp">
+      <Filter>src\services\custom_text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\custom_text\custom_text_service.cpp">
+      <Filter>src\services\custom_text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\friends\friends_service.cpp">
+      <Filter>src\services\friends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\gta_data\cache_file.cpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\gta_data\gta_data_service.cpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\gta_data\yim_fipackfile.cpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\gui\gui_service.cpp">
+      <Filter>src\services\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\hotkey\hotkey.cpp">
+      <Filter>src\services\hotkey</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\hotkey\hotkey_service.cpp">
+      <Filter>src\services\hotkey</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\matchmaking\matchmaking_service.cpp">
+      <Filter>src\services\matchmaking</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\mobile\mobile_service.cpp">
+      <Filter>src\services\mobile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\model_preview\model_preview_service.cpp">
+      <Filter>src\services\model_preview</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\notifications\notification.cpp">
+      <Filter>src\services\notifications</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\notifications\notification_service.cpp">
+      <Filter>src\services\notifications</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\orbital_drone\orbital_drone.cpp">
+      <Filter>src\services\orbital_drone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\outfit\outfit_service.cpp">
+      <Filter>src\services\outfit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\ped_animations\ped_animations_service.cpp">
+      <Filter>src\services\ped_animations</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\persist_weapons\persist_weapons.cpp">
+      <Filter>src\services\persist_weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\pickups\pickup_service.cpp">
+      <Filter>src\services\pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\player_database\persistent_player.cpp">
+      <Filter>src\services\player_database</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\player_database\player_database_service.cpp">
+      <Filter>src\services\player_database</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\players\player.cpp">
+      <Filter>src\services\players</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\players\player_service.cpp">
+      <Filter>src\services\players</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\script_connection\script_connection.cpp">
+      <Filter>src\services\script_connection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\script_connection\script_connection_service.cpp">
+      <Filter>src\services\script_connection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\script_patcher\script_patch.cpp">
+      <Filter>src\services\script_patcher</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\script_patcher\script_patcher_service.cpp">
+      <Filter>src\services\script_patcher</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\squad_spawner\squad_spawner.cpp">
+      <Filter>src\services\squad_spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\squad_spawner\squad_spawner_actions.cpp">
+      <Filter>src\services\squad_spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\squad_spawner\squad_spawner_save_files.cpp">
+      <Filter>src\services\squad_spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\translation_service\translation_service.cpp">
+      <Filter>src\services\translation_service</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\tunables\tunables_service.cpp">
+      <Filter>src\services\tunables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\vehicle\handling_profile.cpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\vehicle\handling_service.cpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\vehicle\persist_car_service.cpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\vehicle\vehicle_control_service.cpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\vehicle\xml_vehicles_service.cpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\vehicle_helper\vehicle_helper.cpp">
+      <Filter>src\services\vehicle_helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\services\xml_maps\xml_map_service.cpp">
+      <Filter>src\services\xml_maps</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thread_pool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\entity.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\notify.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\protection.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\vehicle.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\version.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\core\view_active_view.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\core\view_cmd_executor.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\core\view_heading.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\core\view_navigation.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\core\view_notifications.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\core\view_onboarding.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\core\view_overlay.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\core\view_root.cpp">
+      <Filter>src\views\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\debug\view_debug.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\debug\view_debug_animations.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\debug\view_debug_globals.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\debug\view_debug_locals.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\debug\view_debug_misc.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\debug\view_debug_script_events.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\debug\view_debug_scripts.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\debug\view_debug_threads.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\debug\views_debug_logs.cpp">
+      <Filter>src\views\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\esp\view_esp.cpp">
+      <Filter>src\views\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\network\view_missions.cpp">
+      <Filter>src\views\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\network\view_network.cpp">
+      <Filter>src\views\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\network\view_player_database.cpp">
+      <Filter>src\views\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\network\view_session_browser.cpp">
+      <Filter>src\views\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\network\view_spoofing.cpp">
+      <Filter>src\views\network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\players\player\player_info.cpp">
+      <Filter>src\views\players\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\players\player\player_kick.cpp">
+      <Filter>src\views\players\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\players\player\player_misc.cpp">
+      <Filter>src\views\players\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\players\player\player_teleport.cpp">
+      <Filter>src\views\players\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\players\player\player_toxic.cpp">
+      <Filter>src\views\players\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\players\player\player_vehicle.cpp">
+      <Filter>src\views\players\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\players\view_player.cpp">
+      <Filter>src\views\players</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\players\view_players.cpp">
+      <Filter>src\views\players</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\self\view_animations.cpp">
+      <Filter>src\views\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\self\view_custom_teleport.cpp">
+      <Filter>src\views\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\self\view_mobile.cpp">
+      <Filter>src\views\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\self\view_outfit_editor.cpp">
+      <Filter>src\views\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\self\view_outfit_slots.cpp">
+      <Filter>src\views\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\self\view_self.cpp">
+      <Filter>src\views\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\self\view_teleport.cpp">
+      <Filter>src\views\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\self\view_weapons.cpp">
+      <Filter>src\views\self</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\settings\view_esp_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\settings\view_gta_cache.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\settings\view_gui_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\settings\view_hotkey_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\settings\view_lua_scripts.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\settings\view_protection_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\settings\view_proxy_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\settings\view_reaction_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\settings\view_settings.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\settings\view_stat_editor.cpp">
+      <Filter>src\views\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\vehicle\spawn\view_persist_car.cpp">
+      <Filter>src\views\vehicle\spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\vehicle\spawn\view_pv.cpp">
+      <Filter>src\views\vehicle\spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\vehicle\spawn\view_xml_vehicles.cpp">
+      <Filter>src\views\vehicle\spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\vehicle\view_fun_vehicle.cpp">
+      <Filter>src\views\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\vehicle\view_lsc.cpp">
+      <Filter>src\views\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\vehicle\view_spawn_vehicle.cpp">
+      <Filter>src\views\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\vehicle\view_vehicle.cpp">
+      <Filter>src\views\vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\view_context_menu.cpp">
+      <Filter>src\views</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\view_gta_data.cpp">
+      <Filter>src\views</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\view_vehicle_control.cpp">
+      <Filter>src\views</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\world\view_blackhole.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\world\view_creator.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\world\view_gravity.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\world\view_model_swapper.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\world\view_ocean.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\world\view_spawn_ped.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\world\view_squad_spawner.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\world\view_time_and_weather.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\world\view_train.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\world\view_vfx.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\world\view_waypoint_and_objective.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\world\view_world.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\views\world\view_xml_maps.cpp">
+      <Filter>src\views\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_demo.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_draw.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_tables.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_widgets.cpp">
+      <Filter>src\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>src\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>src\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="oem\ui_main.cpp">
+      <Filter>oem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\backend\backend.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\bool_command.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\command.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\command_arguments.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\context\chat_command_context.hpp">
+      <Filter>src\backend\context</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\context\command_context.hpp">
+      <Filter>src\backend\context</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\context\default_command_context.hpp">
+      <Filter>src\backend\context</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\float_command.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\int_command.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\looped\looped.hpp">
+      <Filter>src\backend\looped</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\looped_command.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\player_command.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\reactions\interloper_reaction.hpp">
+      <Filter>src\backend\reactions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\reactions\reaction.hpp">
+      <Filter>src\backend\reactions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\script_patches.hpp">
+      <Filter>src\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\byte_patch_manager.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\admin_rids.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\all_script_names.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\apartment_names.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\blip_types.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\block_join_reasons.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\bullet_impact_types.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\command_access_levels.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\gravity_presets.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\hud_colors.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\hud_component_names.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\infractions.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\ipls.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\language_codes.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\levels.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\lsc_types.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\menu_event.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\packet_types.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\ptfx_effects.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\region_codes.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\special_ammo_types.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\speed_units.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\stack_sizes.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\task_types.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\warehouse_names.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\data\weathers.hpp">
+      <Filter>src\core\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\enums.hpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scr_globals.hpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\settings.hpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fiber_pool.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file_manager.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file_manager\file.hpp">
+      <Filter>src\file_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file_manager\folder.hpp">
+      <Filter>src\file_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fonts\fonts.hpp">
+      <Filter>src\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\function_types.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\blip.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\enums.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\fidevice.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\fwddec.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\joaat.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\json_serializer.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\matrix.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\net_array.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\net_game_event.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\net_object_mgr.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\ped_factory.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\pickup_rewards.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\pools.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\script_handler.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\script_program.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\script_thread.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\sound.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\vehicle_values.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\vehicles.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\weapon_info_manager.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\weapons.hpp">
+      <Filter>src\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta_pointers.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta_pointers_layout_info.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta_util.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\components\components.hpp">
+      <Filter>src\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\handling\current_profile\current_profile_tabs.hpp">
+      <Filter>src\gui\handling\current_profile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooking\call_hook.hpp">
+      <Filter>src\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooking\detour_hook.hpp">
+      <Filter>src\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooking\hooking.hpp">
+      <Filter>src\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooking\vmt_hook.hpp">
+      <Filter>src\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooking\vtable_hook.hpp">
+      <Filter>src\hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\http_client\http_client.hpp">
+      <Filter>src\http_client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\http_client\proxy_mgr.hpp">
+      <Filter>src\http_client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\http_client\proxy_protocols.hpp">
+      <Filter>src\http_client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\http_client\proxy_settings.hpp">
+      <Filter>src\http_client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\invoker\crossmap.hpp">
+      <Filter>src\invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\invoker\invoker.hpp">
+      <Filter>src\invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json_util.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logger\exception_handler.hpp">
+      <Filter>src\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logger\logger.hpp">
+      <Filter>src\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logger\stack_trace.hpp">
+      <Filter>src\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\command.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\entities.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\event.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\global_table.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\globals.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\gui.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\gui\base_text_element.hpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\gui\button.hpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\gui\checkbox.hpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\gui\gui_element.hpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\gui\input_float.hpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\gui\input_int.hpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\gui\input_string.hpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\gui\raw_imgui_callback.hpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\gui\sameline.hpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\gui\separator.hpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\gui\text.hpp">
+      <Filter>src\lua\bindings\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\imgui.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\locals.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\log.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\memory.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\native.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\network.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\script.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\self.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\stats.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\tunables.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\vector.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\vehicles.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\bindings\weapons.hpp">
+      <Filter>src\lua\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lua_manager.hpp">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lua_module.hpp">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\lua_patch.hpp">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\natives\lua_native_binding.hpp">
+      <Filter>src\lua\natives</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\sol.hpp">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua\sol_include.hpp">
+      <Filter>src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\all.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\batch.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\byte_patch.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\fwddec.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\handle.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\module.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\pattern.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\range.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\signature.hpp">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\native_hooks\all_scripts.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\native_hooks\am_launcher.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\native_hooks\carmod_shop.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\native_hooks\creator.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\native_hooks\freemode.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\native_hooks\native_hooks.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\native_hooks\network_session_host.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\native_hooks\shop_controller.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\native_hooks\tunables.hpp">
+      <Filter>src\native_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\natives.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\packet.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pointers.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\alphabet_types.hpp">
+      <Filter>src\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\font_mgr.hpp">
+      <Filter>src\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\renderer.hpp">
+      <Filter>src\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sc_pointers.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sc_pointers_layout_info.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_function.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_global.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_local.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_mgr.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\api\api_service.hpp">
+      <Filter>src\services\api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\context_menu\context_menu_service.hpp">
+      <Filter>src\services\context_menu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\creator_storage\creator_storage_service.hpp">
+      <Filter>src\services\creator_storage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\custom_teleport\custom_teleport_service.hpp">
+      <Filter>src\services\custom_teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\custom_text\custom_text_callbacks.hpp">
+      <Filter>src\services\custom_text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\custom_text\custom_text_service.hpp">
+      <Filter>src\services\custom_text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\friends\friends_service.hpp">
+      <Filter>src\services\friends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\gta_data\cache_file.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\gta_data\gta_data_service.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\gta_data\ped_item.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\gta_data\vehicle_item.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\gta_data\weapon_component.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\gta_data\weapon_file.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\gta_data\weapon_item.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\gta_data\yim_fipackfile.hpp">
+      <Filter>src\services\gta_data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\gui\gui_service.hpp">
+      <Filter>src\services\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\hotkey\hotkey.hpp">
+      <Filter>src\services\hotkey</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\hotkey\hotkey_service.hpp">
+      <Filter>src\services\hotkey</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\matchmaking\matchmaking_service.hpp">
+      <Filter>src\services\matchmaking</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\mobile\mobile_service.hpp">
+      <Filter>src\services\mobile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\model_preview\model_preview_service.hpp">
+      <Filter>src\services\model_preview</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\notifications\notification.hpp">
+      <Filter>src\services\notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\notifications\notification_service.hpp">
+      <Filter>src\services\notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\orbital_drone\orbital_drone.hpp">
+      <Filter>src\services\orbital_drone</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\outfit\outfit_service.hpp">
+      <Filter>src\services\outfit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\ped_animations\ped_animations_service.hpp">
+      <Filter>src\services\ped_animations</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\persist_weapons\persist_weapons.hpp">
+      <Filter>src\services\persist_weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\persist_weapons\weaponloadout_json.hpp">
+      <Filter>src\services\persist_weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\pickups\pickup_service.hpp">
+      <Filter>src\services\pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\player_database\persistent_player.hpp">
+      <Filter>src\services\player_database</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\player_database\player_database_service.hpp">
+      <Filter>src\services\player_database</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\players\player.hpp">
+      <Filter>src\services\players</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\players\player_service.hpp">
+      <Filter>src\services\players</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\players\rate_limiter.hpp">
+      <Filter>src\services\players</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\script_connection\script_connection.hpp">
+      <Filter>src\services\script_connection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\script_connection\script_connection_service.hpp">
+      <Filter>src\services\script_connection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\script_patcher\script_data.hpp">
+      <Filter>src\services\script_patcher</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\script_patcher\script_patch.hpp">
+      <Filter>src\services\script_patcher</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\script_patcher\script_patcher_service.hpp">
+      <Filter>src\services\script_patcher</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\squad_spawner\squad_spawner.hpp">
+      <Filter>src\services\squad_spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\translation_service\local_index.hpp">
+      <Filter>src\services\translation_service</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\translation_service\remote_index.hpp">
+      <Filter>src\services\translation_service</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\translation_service\translation_entry.hpp">
+      <Filter>src\services\translation_service</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\translation_service\translation_service.hpp">
+      <Filter>src\services\translation_service</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\tunables\tunables_service.hpp">
+      <Filter>src\services\tunables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\vehicle\handling_profile.hpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\vehicle\handling_service.hpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\vehicle\model_attachment.hpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\vehicle\persist_car_service.hpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\vehicle\vehicle_control_service.hpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\vehicle\xml_vehicles_service.hpp">
+      <Filter>src\services\vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\vehicle_helper\vehicle_helper.hpp">
+      <Filter>src\services\vehicle_helper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\services\xml_maps\xml_map_service.hpp">
+      <Filter>src\services\xml_maps</Filter>
+    </ClInclude>
+    <ClInclude Include="src\thread_pool.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\animations.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\blip.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\chat.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\compile_time_helpers.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\entity.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\explosion_anti_cheat_bypass.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\fuzzer.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\globals.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\is_proton.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\math.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\misc.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\mobile.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\model_info.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\notify.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\outfit.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\pathfind.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\ped.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\police.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\pools.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\protection.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\scripts.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\session.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\string_conversions.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\sync_trees.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\system.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\teleport.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\timer.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\toxic.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\train.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\troll.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\vehicle.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\world_model.hpp">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\version.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\views\debug\view_debug.hpp">
+      <Filter>src\views\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="src\views\esp\view_esp.hpp">
+      <Filter>src\views\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\views\network\missions\cp_collection.hpp">
+      <Filter>src\views\network\missions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\views\network\missions\criminal_damage.hpp">
+      <Filter>src\views\network\missions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\views\network\missions\hunt_the_beast.hpp">
+      <Filter>src\views\network\missions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\views\network\missions\king_of_the_castle.hpp">
+      <Filter>src\views\network\missions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\views\view.hpp">
+      <Filter>src\views</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widgets\imgui_bitfield.hpp">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widgets\imgui_hotkey.hpp">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imconfig.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_internal.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_rectpack.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_textedit.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_truetype.h">
+      <Filter>src\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\backends\imgui_impl_dx11.h">
+      <Filter>src\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\backends\imgui_impl_win32.h">
+      <Filter>src\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="oem\ico_font.h">
+      <Filter>oem</Filter>
+    </ClInclude>
+    <ClInclude Include="oem\segue_font.h">
+      <Filter>oem</Filter>
+    </ClInclude>
+    <ClInclude Include="oem\ui_main.hpp">
+      <Filter>oem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="src\hooks\protections\sound_overload_detour_asm.asm">
+      <Filter>src\hooks\protections</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{E728EA7B-086B-3223-8F32-47F744BF77EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend">
+      <UniqueIdentifier>{883551EF-A5AC-34B2-9506-C9273E005E60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands">
+      <UniqueIdentifier>{58A1B492-7461-3B3F-88C0-2980F30435C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\misc">
+      <UniqueIdentifier>{9B20CDDB-ED75-3B21-9816-A727196FFEF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\player">
+      <UniqueIdentifier>{BC487A50-4E79-3124-BD28-863D6DC93251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\player\kick">
+      <UniqueIdentifier>{BD053B05-75D4-3106-B7A9-E4F697402350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\player\misc">
+      <UniqueIdentifier>{E90D07D8-BB5B-311E-8C9B-04386941A036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\player\toxic">
+      <UniqueIdentifier>{83421B9C-3605-30AC-8B23-572F089D2411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\player\troll">
+      <UniqueIdentifier>{78FCC084-E3A0-3698-A868-D712F308CC0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\player\vehicle">
+      <UniqueIdentifier>{F2D5BE7B-CE8D-34FF-8843-502FDD480DE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\self">
+      <UniqueIdentifier>{D64C0D3C-685D-3B1E-917D-C0A9522E3A63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\session">
+      <UniqueIdentifier>{5CC9806A-5B06-351B-9D4A-E05A32FB9E12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\spawn">
+      <UniqueIdentifier>{3A49B36E-6109-3269-AE98-07EC4006114D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\system">
+      <UniqueIdentifier>{F43A64DF-6EB4-3783-84CB-89CFBAD074B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\commands\teleport">
+      <UniqueIdentifier>{2EF763FD-EA50-3170-B7A1-3D91A5B3FD3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\context">
+      <UniqueIdentifier>{D4F7A6C4-090E-3092-8C8D-B0F8FE25181D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped">
+      <UniqueIdentifier>{D64E056E-970C-3A6F-8A6A-688977E00006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\hud">
+      <UniqueIdentifier>{D7737EE7-B916-35F1-B2C2-A5549B806A10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\player">
+      <UniqueIdentifier>{6F92A35D-F602-3F65-BA1E-344D89ADB548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\self">
+      <UniqueIdentifier>{062CD240-7CFF-3A12-931E-25DD6DBB39E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\session">
+      <UniqueIdentifier>{AC56F40F-4C35-372D-9B50-D4B4A0D0CA4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\system">
+      <UniqueIdentifier>{3ABD050A-2275-3B6B-AFDD-88ABB0A85655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\tunables">
+      <UniqueIdentifier>{6B6C2099-3073-36BC-85FD-10BFF1B51762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\vehicle">
+      <UniqueIdentifier>{BD27F5EC-7D47-36F1-92B0-B7CBB8FEDABB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\weapons">
+      <UniqueIdentifier>{559309B3-F32A-3247-BB75-404E43DD5434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\world">
+      <UniqueIdentifier>{AA1A05F3-7838-345C-B160-15D76907EB0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\looped\world\nearby">
+      <UniqueIdentifier>{36D21751-3BA7-37C6-A704-31C72298682F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\backend\reactions">
+      <UniqueIdentifier>{57876BA7-0339-342B-B0AA-B75B3A6623AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{1B63A014-3CD0-3BA1-98E5-266FDD94A249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\data">
+      <UniqueIdentifier>{6DEA3427-C6B3-367B-AD7B-F545D95281C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\file_manager">
+      <UniqueIdentifier>{DB6C5E1A-1FE9-3DCB-AC5B-E8CEFA5A6080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\fonts">
+      <UniqueIdentifier>{EE577A7F-31FA-3D18-806C-F2A0B18623D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gta">
+      <UniqueIdentifier>{EC3984B7-2C42-3788-A48C-76BF22E29E09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{731100E0-F836-3D46-83BE-B6837C4FBF91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\components">
+      <UniqueIdentifier>{15D177FC-0023-3F6C-BF0B-148B460BE328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\handling">
+      <UniqueIdentifier>{83A8EF91-D6DB-35F9-A705-6F288DD22CD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\handling\current_profile">
+      <UniqueIdentifier>{047EEDF8-173A-35A6-A726-B77C993986B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui\handling\modals">
+      <UniqueIdentifier>{65AC4D0F-62BF-3F83-B906-89D90B942299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooking">
+      <UniqueIdentifier>{08F2D70B-A08C-3CDD-BC1D-0F1427CE77B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks">
+      <UniqueIdentifier>{B6C29BB2-9368-31A9-A64D-AE752CB0EEA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\fuzzer">
+      <UniqueIdentifier>{DFEDA1CD-7A51-309D-9883-296CEC763023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\gui">
+      <UniqueIdentifier>{EDCF0704-993C-3528-B8CD-EED187AFCAE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\info">
+      <UniqueIdentifier>{27312B7B-7DED-331F-AA63-6E63F98FAC09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\misc">
+      <UniqueIdentifier>{56CD7303-04EC-3F13-B47E-EE0398094A42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\player_management">
+      <UniqueIdentifier>{3CFBEAF3-EABA-381C-9A53-5EB092005DD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\protections">
+      <UniqueIdentifier>{274AC4BB-E3A2-387A-A975-16F6EC7601D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\script">
+      <UniqueIdentifier>{8B964053-37E2-3D80-85A0-025056F4C2FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\spoofing">
+      <UniqueIdentifier>{2DE467F6-3844-39C0-BF99-541AA68C720E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\toxic">
+      <UniqueIdentifier>{06D391CC-D937-344D-B267-7FAD2AD2504E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\voice">
+      <UniqueIdentifier>{D1DC9789-1D8D-3639-AC1B-38D2EF48AAB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\http_client">
+      <UniqueIdentifier>{3CFE0C6D-DDF1-3E98-8A4B-E7F5466D3D51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\invoker">
+      <UniqueIdentifier>{BC739A46-5652-3675-90F4-8ED0EC78D4D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\logger">
+      <UniqueIdentifier>{9E343C9A-F788-331E-8051-753F4DACCE18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua">
+      <UniqueIdentifier>{C6F303D8-5D53-31D6-982E-8F2C737B8AB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua\bindings">
+      <UniqueIdentifier>{02AEFBB2-62BC-3CEC-8938-B618C6DCB887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua\bindings\gui">
+      <UniqueIdentifier>{C1D8C123-BE13-3C48-A50D-360D944B1B68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lua\natives">
+      <UniqueIdentifier>{8061EDBB-2E25-3FF2-8EC6-5467809F9FC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory">
+      <UniqueIdentifier>{E76439B7-ACAD-3749-A6F2-4A96ABA29166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\native_hooks">
+      <UniqueIdentifier>{3C86B9A2-2C3A-37FC-8AC2-02788DC771C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\renderer">
+      <UniqueIdentifier>{7FE2377F-02A9-3CE4-8AEE-92CCEE24FC63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services">
+      <UniqueIdentifier>{DD08A610-D7FB-34D6-81C2-8F3BB7D8C95C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\api">
+      <UniqueIdentifier>{84F53B10-0031-344D-8C52-157319B69F2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\context_menu">
+      <UniqueIdentifier>{3521854A-FD4A-3546-99EB-3CA838F329A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\creator_storage">
+      <UniqueIdentifier>{C8296834-EF93-3CAA-B079-BDCC9FE6924A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\custom_teleport">
+      <UniqueIdentifier>{ACC749C2-8DF3-3104-BC6E-64819DF46DFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\custom_text">
+      <UniqueIdentifier>{70D3C9DC-1225-3901-8C45-C9EF218D9B28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\friends">
+      <UniqueIdentifier>{923428E8-504F-330C-80D6-23260BE9767D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\gta_data">
+      <UniqueIdentifier>{E5B723EC-04E1-3297-BD8C-96F383AFF812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\gui">
+      <UniqueIdentifier>{00C9DDE5-0DB5-3421-AD80-A14B2EBF02CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\hotkey">
+      <UniqueIdentifier>{4B32CFB6-497A-3742-BD46-B8A24B28DEAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\matchmaking">
+      <UniqueIdentifier>{49BE9553-75AD-3809-8BD0-7F7FF2AFFF14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\mobile">
+      <UniqueIdentifier>{ED415AEE-0488-3C85-A4DE-5C312579ACB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\model_preview">
+      <UniqueIdentifier>{5E8A910A-A7C7-3E5B-9538-B6E980BD120F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\notifications">
+      <UniqueIdentifier>{976EB22A-058B-34B5-B162-3BA6265926F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\orbital_drone">
+      <UniqueIdentifier>{48C45C05-CE9D-3D68-94D1-11353C3E6400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\outfit">
+      <UniqueIdentifier>{E6CCE590-B4E6-39FE-8839-ED329864101A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\ped_animations">
+      <UniqueIdentifier>{BACC0313-8030-35BA-8D4E-8C9D715670F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\persist_weapons">
+      <UniqueIdentifier>{D081E169-34A6-3054-9A93-BFD087F4D19E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\pickups">
+      <UniqueIdentifier>{BD1AC2C2-AE40-3952-BA1B-90C457E7ED9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\player_database">
+      <UniqueIdentifier>{F5A306FF-31C9-36DC-B89C-4C1493F30F3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\players">
+      <UniqueIdentifier>{5E096B1C-F840-3138-A63C-26DBDB7927B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\script_connection">
+      <UniqueIdentifier>{F9A72EFA-F0FF-312B-AC9C-E1AB14F42C0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\script_patcher">
+      <UniqueIdentifier>{CE25F087-6827-35D8-87BE-0EE8C8FBA8CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\squad_spawner">
+      <UniqueIdentifier>{CCFEC993-B818-303E-B3E5-5DA36C498E50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\translation_service">
+      <UniqueIdentifier>{10FE4B91-8FC0-3D77-9191-0D467DAA691C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\tunables">
+      <UniqueIdentifier>{4235CD2C-ABAD-3A45-84A7-A1D1F63F396D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\vehicle">
+      <UniqueIdentifier>{BA7CBA0A-292C-3BC9-9B0A-D75B2E2EAB6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\vehicle_helper">
+      <UniqueIdentifier>{697E30AB-236D-3136-B215-7C255F8AC33F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services\xml_maps">
+      <UniqueIdentifier>{59986747-85FB-3B70-9383-040674959693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{521B4621-01D9-3489-8F13-F43372516BAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views">
+      <UniqueIdentifier>{1A01C97C-F50C-381A-AA71-A651C5BF64D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\core">
+      <UniqueIdentifier>{CF0C7BDC-3BAE-3226-BB5A-61D7CF423475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\debug">
+      <UniqueIdentifier>{270A75FC-6F59-31CE-8101-489DAD4EB19F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\esp">
+      <UniqueIdentifier>{434D53ED-7040-36AA-A918-5161821B87CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\network">
+      <UniqueIdentifier>{1978E053-2C19-3E96-B4B9-B3E11D0D6CE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\network\missions">
+      <UniqueIdentifier>{35E876FE-A81A-3E7F-AB4A-0E66F9623760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\players">
+      <UniqueIdentifier>{5D37ABD0-277F-3CA6-A93E-CC91EB22B03E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\players\player">
+      <UniqueIdentifier>{B3B6F72B-635A-3A6B-84A4-E236332C70CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\self">
+      <UniqueIdentifier>{093552F4-7E24-3D0B-99A6-20F9B0C0E296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\settings">
+      <UniqueIdentifier>{2C6D8551-72AA-38C8-BD2C-E6739137DFFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\vehicle">
+      <UniqueIdentifier>{2B4CC8C6-8396-386C-AC78-853FE8D33F18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\vehicle\spawn">
+      <UniqueIdentifier>{EA893334-6435-3B0E-BE93-3956EB754F62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views\world">
+      <UniqueIdentifier>{CD2F7A35-E647-3D00-A60E-8E19C0512D04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets">
+      <UniqueIdentifier>{35AE1E64-AD13-3CB5-A0F5-7DA50FF5EFFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\imgui">
+      <UniqueIdentifier>{6824ff04-07b6-4990-9c35-05f3fdd9298b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\imgui\backends">
+      <UniqueIdentifier>{706eae10-cd76-4f0e-b49d-7e6195912f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="oem">
+      <UniqueIdentifier>{f624835e-0e59-43ea-ba81-041b933ce901}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
