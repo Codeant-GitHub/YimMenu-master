@@ -2,6 +2,8 @@
 #include "common.hpp"
 #include "file_manager.hpp"
 
+#pragma warning(disable : 2857)
+
 namespace big
 {
 	bool file_manager::init(const std::filesystem::path& base_dir)

@@ -9,7 +9,7 @@
 
 namespace big
 {
-	void render_spawn_new_vehicle()
+	void view::render_spawn_new_vehicle()
 	{
 		if (ImGui::Checkbox("PREVIEW"_T.data(), &g.spawn_vehicle.preview_vehicle))
 		{
@@ -228,7 +228,7 @@ namespace big
 
 		switch (g.spawn_vehicle.spawn_type)
 		{
-		case 0: render_spawn_new_vehicle(); break;
+		case 0: view::render_spawn_new_vehicle(); break;
 		case 1: view::pv(); break;
 		case 2: view::persist_car(); break;
 		case 3: view::xml_vehicles(); break;

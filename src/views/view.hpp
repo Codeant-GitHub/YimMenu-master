@@ -53,6 +53,7 @@ namespace big
 		static void xml_vehicles();
 		static void fun_vehicle();
 		static void vehicle_control();
+		static void render_spawn_new_vehicle();
 		static void spawn_ped();
 		static void squad_spawner();
 		static void time_and_weather();

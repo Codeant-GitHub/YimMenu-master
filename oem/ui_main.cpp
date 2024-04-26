@@ -167,24 +167,17 @@ namespace big
 					}
 
 					pWindowDrawList->AddCircleFilled(ImVec2(57.000f + p.x, 570.000f + p.y), 25.000f, ImColor(10, 9, 10, 255), 30);
-
 					pWindowDrawList->AddCircle(ImVec2(57.000f + p.x, 570.000f + p.y), 27.000f, ImColor(20, 19, 20, 255), 30, 4.000f);
-
 					pWindowDrawList->AddText(segu, 40.f, ImVec2(51.000f + p.x, 548.000f + p.y), ImColor(0.60f, 0.60f, 0.60f, 0.50f), "?");
-
-
 					const int vtx_idx_3 = pWindowDrawList->VtxBuffer.Size;
-
 					pWindowDrawList->AddText(segu, 22.f, ImVec2(97.000f + p.x, 547.000f + p.y), ImColor(0.40f, 0.40f, 0.40f, 0.50f), "Benjy\nLifetime");
-
 					const int vtx_idx_4 = pWindowDrawList->VtxBuffer.Size;
-
 					ImGui::ShadeVertsLinearColorGradientKeepAlpha(pWindowDrawList, vtx_idx_3, vtx_idx_4, ImVec2(97.000f + p.x, 547.000f + p.y), ImVec2(200.000f + p.x, 567.000f + p.y), ImColor(0.35f, 0.35f, 0.35f, 0.50f), ImColor(0.90f, 0.90f, 0.90f, 1.00f));
 
 					switch (ui_tabs)
 					{
 					case 0:
-
+					{
 						ImGui::SetCursorPos(ImVec2(203, 88 - size_child));
 
 						ImGui::BeginChild("Editor", ImVec2(339, 253), true);
@@ -218,10 +211,10 @@ namespace big
 						ImGui::BeginChild("Aimbot", ImVec2(339, 258), true);
 						{
 							static int selectedItem = 0;
-							static const char* items[]{"Always", "Toggle"};
+							static const char* items[]{ "Always", "Toggle" };
 							ImGui::Combo("Aimbot Mode", &selectedItem, items, IM_ARRAYSIZE(items), 5);
 
-							static char buf[64] = {""};
+							static char buf[64] = { "" };
 							ImGui::InputText("InputText", buf, 64);
 						}
 						ImGui::EndChild();
@@ -235,14 +228,13 @@ namespace big
 							ImGui::Keybind("Aimbot Keybind", &k, &m);
 						}
 						ImGui::EndChild();
-
-						break;
-
+					}
+					break;
 					case 1:
 					{
 						ImGui::SetCursorPos(ImVec2(193, 80 - size_child));
 
-						ImGui::BeginChild("##玩家设置", ImVec2(696, 530), false);
+						ImGui::BeginChild("##自我选项", ImVec2(696, 530), false);
 						{
 							{
 								ImGui::SetCursorPos(ImVec2(0, 0 - size_child));
@@ -313,7 +305,75 @@ namespace big
 						ImGui::EndChild();
 					}
 					break;
+					case 2:
+					{
+						ImGui::SetCursorPos(ImVec2(193, 80 - size_child));
+
+						ImGui::BeginChild("##载具选项", ImVec2(696, 530), false);
+						{
+							{
+								ImGui::SetCursorPos(ImVec2(0, 0 - size_child));
+
+								ImGui::BeginChild("载具设置", ImVec2(339, 253), true);
+								{
+									view::vehicle();
+								}
+								ImGui::EndChild();
+
+								ImGui::SetCursorPos(ImVec2(352, 0 - size_child)); //x 352 y 265 模块二大小与相对应的坐标
+
+								ImGui::BeginChild("载具生成", ImVec2(339, 253), true);
+								{
+									view::render_spawn_new_vehicle();
+								}
+								ImGui::EndChild();
+
+								ImGui::SetCursorPos(ImVec2(0, 0 + (265 * 1) - size_child));
+
+								ImGui::BeginChild("载具改装", ImVec2(339, 253), true);
+								{
+									view::lsc();
+								}
+								ImGui::EndChild();
+
+								ImGui::SetCursorPos(ImVec2(352, 0 + (265 * 1) - size_child));
+
+								ImGui::BeginChild("操控载具", ImVec2(339, 253), true);
+								{
+									view::fun_vehicle();
+								}
+								ImGui::EndChild();
+
+								ImGui::SetCursorPos(ImVec2(0, 0 + (265 * 2) - size_child));
+
+								ImGui::BeginChild("自定义载具", ImVec2(339, 253), true);
+								{
+									view::xml_vehicles();
+								}
+								ImGui::EndChild();
+
+								ImGui::SetCursorPos(ImVec2(352, 0 + (265 * 2) - size_child));
+
+								ImGui::BeginChild("服装编辑器", ImVec2(339, 253), true);
+								{
+									view::outfit_slots();
+								}
+								ImGui::EndChild();
+
+								ImGui::SetCursorPos(ImVec2(0, 0 + (265 * 3) - size_child));
+
+								ImGui::BeginChild("装备编辑器", ImVec2(339, 253), true);
+								{
+									view::outfit_editor();
+								}
+								ImGui::EndChild();
+							}
+						}
+						ImGui::EndChild();
+					}
+					break;
 					case 8:
+					{
 						ImGui::SetCursorPos(ImVec2(193, 80 - size_child));
 						ImGui::BeginChild("Configuration", ImVec2(339, 253), true);
 						{
@@ -377,7 +437,8 @@ namespace big
 							help_marker("c");
 						}
 						ImGui::EndChild();
-						break;
+					}
+					break;
 					}
 				}
 				ImGui::End();

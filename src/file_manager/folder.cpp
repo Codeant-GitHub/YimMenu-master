@@ -1,9 +1,8 @@
 #pragma once
-#include "common.hpp"
-
 #include "folder.hpp"
-
 #include "file_manager.hpp"
+
+#pragma warning(disable : 2857)
 
 namespace big
 {

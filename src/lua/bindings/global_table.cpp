@@ -1,5 +1,8 @@
 #pragma once
 #include "common.hpp"
+#include "global_table.hpp"
+
+#pragma warning(disable : 2857)
 
 namespace lua::global_table
 {
